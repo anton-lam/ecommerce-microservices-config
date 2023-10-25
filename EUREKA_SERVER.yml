@@ -6,6 +6,8 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
+    service-url:
+      defaultZone: http://ocalhost:8761/eureka
 spring:
   application:
-    name: eureka-server
+    name: EUREKA-SERVER
