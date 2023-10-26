@@ -14,7 +14,7 @@ spring:
     serialization:
       fail-on-empty-beans: false
   application:
-    name: loan-service
+    name: account-service
 server:
   port: 0
   error:
@@ -30,5 +30,3 @@ management:
     web:
       exposure:
         include: refresh,health
-api:
-  account: http://ACCOUNT-SERVICE/api/account
